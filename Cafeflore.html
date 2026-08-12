@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe de Flore Bakery & Cafe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Cafeflore.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-wheat-awn"></i>
+      <span class="logo-text">Cafe de Flore Bakery & Cafe</span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="btn-gold">Order Online</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Fresh Coffee & Pastries, Every Day</h1>
+      <p>
+        A cozy neighborhood cafe where specialty coffee meets warm, freshly
+        baked pastries. Order ahead, skip the line, and savor the moment.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#" class="btn-gold">Order Online</a>
+        <a href="#menu" class="btn-outline">Browse Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Highlights -->
+  <section class="menu-section" id="menu">
+    <div class="menu-header">
+      <h2>Menu Highlights</h2>
+      <a href="#">View Full Menu →</a>
+    </div>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop" alt="Espresso">
+        <div class="card-overlay">
+          <h3>Espresso Creations</h3>
+          <p>Bold flavors, perfectly crafted.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop" alt="Pastries">
+        <div class="card-overlay">
+          <h3>Signature Pastries</h3>
+          <p>Indulgent treats for every mood.</p>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop" alt="Brunch">
+        <div class="card-overlay">
+          <h3>Brunch Favorites</h3>
+          <p>Delicious bites, made fresh.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-card">
+
+      <div class="about-content">
+        <h2>About Our Cafe</h2>
+
+        <p>
+          At Cafe de Flore Bakery & Cafe, we believe good food brings people
+          together. From our carefully sourced ingredients to our cozy
+          ambiance, every detail is crafted to make you feel at home.
+        </p>
+
+        <a href="#" class="btn-dark">Learn More</a>
+      </div>
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop" alt="Cafe Interior">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section" id="reviews">
+    <h2>What Our Guests Say</h2>
+
+    <div class="reviews-grid">
+
+      <div class="review-card">
+        <div class="stars">5/5</div>
+        <p>“The best croissants and coffee in town!”</p>
+        <span class="author">– Ayesha R.</span>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">4.9/5</div>
+        <p>“Cozy place, amazing food and friendly staff.”</p>
+        <span class="author">– Imran T.</span>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">5/5</div>
+        <p>“Love the ambiance and the attention to detail.”</p>
+        <span class="author">– Nadia S.</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <h3>Cafe de Flore Bakery & Cafe</h3>
+      <p>Fresh coffee, warm pastries, and a cozy place to unwind.</p>
+
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <p class="copyright">
+        © 2026 Cafe de Flore Bakery & Cafe. All rights reserved.
+      </p>
+    </div>
+  </footer>
+ 
+  <h1>Cafe Order Form</h1>
+
+  <div id="form-div">
+
+    <form id="myForm">
+
+      <label for="name">Your Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      >
+
+      <label for="address">Address</label>
+      <textarea
+        id="address"
+        rows="4"
+        placeholder="Enter your address"
+        required
+      ></textarea>
+
+      <label for="contact">Email / Cell Number</label>
+      <input
+        type="text"
+        id="contact"
+        placeholder="Enter your email or phone number"
+        required
+      >
+
+      <input type="submit" value="Place Order" id="submitBtn">
+      <input type="reset" value="Reset" id="resetBtn">
+
+    </form>
+
+    <div id="displayDiv">
+      <p class="output-title">Order Status</p>
+      <p id="output"></p>
+    </div>
+
+  </div>
+
+  <script src="Cafeflore.js"></script>
+
+</body>
+</html>
